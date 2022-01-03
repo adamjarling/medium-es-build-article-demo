@@ -2,9 +2,8 @@
   "name": "medium-es-build-article-demo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node serve.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,5 +13,11 @@
     "live-server": "^1.2.1",
     "rimraf": "^3.0.2",
     "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
