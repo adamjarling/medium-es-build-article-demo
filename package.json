@@ -1,0 +1,18 @@
+{
+  "name": "medium-es-build-article-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar": "^3.5.2",
+    "esbuild": "^0.14.10",
+    "live-server": "^1.2.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.4"
+  }
+}
